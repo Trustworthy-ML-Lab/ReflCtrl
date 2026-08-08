@@ -1,5 +1,5 @@
-# ReflCtrl: Controlling LLM Reflection via Representation Engineering
-This is the official repository for [ReflCtrl: Controlling LLM Reflection via Representation Engineering](https://openreview.net/forum?id=ungnJ4O0AD).
+# ReflCtrl: Controlling LLM Reflection Efficiently via Representation Engineering
+This is the official repository for [ReflCtrl: Controlling LLM Reflection Efficiently via Representation Engineering](https://openreview.net/forum?id=ungnJ4O0AD, published at COLM 2026. (Spotlight presentation on NeurIPS 2025 MI workshop)
 For more information, please check out the [project website](https://lilywenglab.github.io/ReflCtrl/).
 ## Overview
 In this work, we study the self-reflection behavior of Large Reasoning Models (LRMs) from the perspective of representation engineering. We segment model’s reasoning into steps, identify the steps corresponding
@@ -28,14 +28,14 @@ python query_llm.py --dataset gsm8k --max_length 8192 --instruction " Please rea
 
 ```
 ## Cite this work
-ReflCtrl: Controlling LLM Reflection via Representation Engineering, Ge Yan, Chung-En Sun, Tsui-Wei Weng, NeurIPS MI workshop 2025.
+ReflCtrl: Controlling LLM Reflection Efficiently via Representation Engineering, Ge Yan, Chung-En Sun, Linbo Liu, Tsui-Wei Weng, COLM 2026.
 ```
-@misc{
-yan2025reflctrl,
-title={ReflCtrl: Controlling {LLM} Reflection via Representation Engineering},
-author={Ge Yan and Chung-En Sun and Tsui-Wei Weng},
-booktitle={Mechanistic Interpretability Workshop at NeurIPS 2025},
-year={2025},
-url={https://openreview.net/forum?id=ungnJ4O0AD}
+@inproceedings{
+    yan2026reflctrl,
+    title={ReflCtrl: Controlling {LLM} Reflection Efficiently via Representation Engineering},
+    author={Ge Yan and Chung-En Sun and Linbo Liu and Tsui-Wei Weng},
+    booktitle={Third Conference on Language Modeling},
+    year={2026},
+    url={https://openreview.net/forum?id=QSKP3uvMm9}
 }
 ```
