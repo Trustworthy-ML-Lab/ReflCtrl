@@ -1,5 +1,5 @@
 # ReflCtrl: Controlling LLM Reflection Efficiently via Representation Engineering
-This is the official repository for [ReflCtrl: Controlling LLM Reflection Efficiently via Representation Engineering](https://openreview.net/forum?id=ungnJ4O0AD, published at COLM 2026. (Spotlight presentation on NeurIPS 2025 MI workshop)
+This is the official repository for [ReflCtrl: Controlling LLM Reflection Efficiently via Representation Engineering](https://openreview.net/forum?id=ungnJ4O0AD), published at COLM 2026. (Spotlight presentation on NeurIPS 2025 MI workshop)
 For more information, please check out the [project website](https://lilywenglab.github.io/ReflCtrl/).
 ## Overview
 In this work, we study the self-reflection behavior of Large Reasoning Models (LRMs) from the perspective of representation engineering. We segment model’s reasoning into steps, identify the steps corresponding
